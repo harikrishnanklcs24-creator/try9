@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+<style>
+    body
+    {
+        background-color: yellow;
+    }
+    .box2
+    {
+     width:200px;
+     height: 200px;
+     background-color: red;
+     border-radius: 8px;
+     color: aliceblue;
+     box-shadow: 4px 4px 4px 2px black;
+     justify-content: center;
+     text-align: center;
+    }
+</style>
+</head>
+
+<body>
+    <div class="box2">
+    𝖭𝖺𝗆𝖾<input type="text" id="n1" style="border-radius: 4px;">
+    𝖯𝖺𝗌𝗌𝗐𝗈𝗋𝖽<input type="password" id="pa" style="border-radius: 4px;">
+    <button onclick="fun()">submit</button>
+    <br>
+create account ?<a href=signup.html>signup</a></div>
+    <script>
+        function fun()
+        {
+            let data=document.getElementById("n1").value;
+            let pass=document.getElementById("pa").value;
+            if(pass=="")
+        {
+            alert("enter the password please");
+        }
+        if(data=="hari")
+        {
+            alert("welcome");
+        }
+        }
+    </script>
+</body>
+</html>
