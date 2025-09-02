@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>loginpage</title>
 <style>
+    @keyframe float
+    {
+
+        0%{ transform : translateY(0px) }
+    50%{ transform : translateY(-30px) }
+    100%{ transform : translateY(0px) }
+    }
     body
     {
         background-color: pink;
@@ -19,6 +26,7 @@
      box-shadow: 4px 4px 4px 2px black;
      justify-content: center;
      text-align: center;
+        animation:float 4s ease-in-out infinite;
     }
 </style>
 </head>
